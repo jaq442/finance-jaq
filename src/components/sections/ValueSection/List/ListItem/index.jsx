@@ -11,7 +11,7 @@ export const ListItem = ({
   const numberReal = Number(number);
   return (
     <li>
-      <div className={`${styles.li} ${category === "in" ? "green" : "grey"}`}>
+      <div className={`${styles.li}  ${category === "in" ? styles.green : styles.grey}`}>
       <div className={styles.div}>
         <h3 className="title md">{title}</h3>
         <p className="body">
