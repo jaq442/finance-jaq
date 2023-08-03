@@ -1,7 +1,7 @@
 import { Homepage } from "./pages/Homepage"
 import "./styles/index.scss"
 
-function App() {
+const App = () => {
   
 
   return (

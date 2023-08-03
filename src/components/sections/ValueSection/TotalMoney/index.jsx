@@ -14,12 +14,7 @@ export const TotalMoney = ({ valueList }) => {
             <p className="body">O valor se refere ao saldo</p>
           </div>
         ) : (
-          <div className={styles.containerSm}>
-            <div className={styles.noMoney}>
-              <h3 className="title md">Resumo Financeiro</h3>
-              <p className="title bg">Você ainda não possui nenhum lançamento</p>
-            </div>
-          </div>
+          null
         )}
       </div>
     </>
