@@ -4,7 +4,7 @@ import { TotalMoney } from "./TotalMoney";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-export const ValueSection = (formData) => {
+export const ValueSection = () => {
   const [valueList, setValueList] = useState([]);
   console.log(valueList);
 

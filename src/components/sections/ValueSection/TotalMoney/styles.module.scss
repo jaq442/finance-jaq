@@ -17,3 +17,9 @@
   flex-direction: column;
   gap: 20px;
 }
+
+@media (max-width: 700px) {
+  .containerSm {
+    width: 100%;
+  }
+}
